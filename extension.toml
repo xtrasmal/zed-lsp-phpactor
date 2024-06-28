@@ -1,5 +1,5 @@
 id = "phpactor"
-name = "PHP Phpactor"
+name = "Phpactor"
 description = "PHP support and Phpactor LSP"
 version = "0.0.1"
 schema_version = 1
