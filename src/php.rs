@@ -40,17 +40,9 @@ impl zed::Extension for PhpactorExtension {
         _config: LanguageServerConfig,
         worktree: &zed::Worktree,
     ) -> Result<zed::Command> {
-        let server_path = self.server_script_path(worktree)?;
         let command = zed::Command {
             command: self.server_script_path(worktree)?,
-            args: vec![
-                env::current_dir()
-                    .unwrap()
-                    .join(&server_path)
-                    .to_string_lossy()
-                    .to_string(),
-                "language-server".to_string(),
-            ],
+            args: vec!["language-server".to_string()],
             env: worktree.shell_env(),
         };
         Ok(command)
