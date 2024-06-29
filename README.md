@@ -1,4 +1,5 @@
 # Phpactor LSP Zed Extension
+[![Rust](https://github.com/xtrasmal/zed-lsp-phpactor/actions/workflows/rust.yml/badge.svg?branch=main)](https://github.com/xtrasmal/zed-lsp-phpactor/actions/workflows/rust.yml)
 
 - adds Phpactor as LSP to Zed Editor
 - adds PHP language support to Zed Editor
