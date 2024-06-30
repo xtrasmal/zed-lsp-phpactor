@@ -15,10 +15,11 @@ impl PhpactorExtension {
     }
 
     fn server_script_path(&mut self, worktree: &zed::Worktree) -> Result<String> {
-        let server_exists = self.server_exists();
+        // let server_exists = self.server_exists();
         // if self.did_find_server && server_exists {
         //     return Ok(SERVER_PATH.to_string());
         // }
+
         let path = worktree
             .which(PACKAGE_NAME)
             .ok_or_else(|| "phpactor must be installed manually.".to_string())?;
