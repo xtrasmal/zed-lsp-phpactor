@@ -1,6 +1,6 @@
 id = "phpactor"
-name = "Phpactor"
-description = "PHP support."
+name = "Phpactor LSP"
+description = "PHP support using Phpactor"
 version = "0.0.1"
 schema_version = 1
 authors = ["Xander <1174877+xtrasmal@users.noreply.github.com>"]
