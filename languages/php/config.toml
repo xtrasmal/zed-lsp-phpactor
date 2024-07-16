@@ -17,4 +17,3 @@ brackets = [
 ]
 collapsed_placeholder = "/* ... */"
 word_characters = ["$"]
-scope_opt_in_language_servers = ["phpactor"]
