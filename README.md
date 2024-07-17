@@ -1,6 +1,9 @@
 # PHP language extension for Zed
 [![Rust](https://github.com/xtrasmal/zed-lsp-phpactor/actions/workflows/rust.yml/badge.svg?branch=main)](https://github.com/xtrasmal/zed-lsp-phpactor/actions/workflows/rust.yml)
 
+
+>PHPACTOR IS NOW PART OF ZED'S EXTENSIONS. DON'T USE THIS ANYMORE ⚠️
+
 ## What is it?
 
 >Intelligent completion and refactoring tool for PHP
